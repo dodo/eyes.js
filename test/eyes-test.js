@@ -47,6 +47,8 @@ eyes.inspect({
 }, 'complex');
 
 
+eyes.inspect(new Buffer(100), "buffer");
+
 var inspect = eyes.inspector({ stream: null });
 
 sys.puts(inspect('something', "something"));
