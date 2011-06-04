@@ -9,6 +9,7 @@ eyes.inspect({
     func: function () {},
     bool: false,
     nil: null,
+    nilarr: [null],
     undef: undefined,
     object: {attr: []}
 }, "native types");
